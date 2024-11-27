@@ -12,7 +12,6 @@ export default function MainSection() {
                         <div className="col_4">
                             <Card />
                         </div>
-
                     </div>
                 </div>
             </section>
