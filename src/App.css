@@ -1,0 +1,50 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 10% 10% 0 0;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col_4 {
+  width: 33%;
+  padding: 10px
+}
+
+
+
+.main_section {
+  margin-bottom: 25px;
+}
+
+body {
+  background-color: rgb(187, 186, 186);
+}
